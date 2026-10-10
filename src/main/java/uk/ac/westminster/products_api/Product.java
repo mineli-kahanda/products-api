@@ -16,6 +16,8 @@ public class Product {
 
     //TUT2 Activity:2 Encapsulation: getters
     public Long getId() {return id;}
-    public String getName() {return name;}
     public double getPrice() {return price;}
+
+    //TUT2 Activity:3 Commented the getter out, ran  GET /products/{id} with id 1 
+    public String getName() {return name;}
 }
