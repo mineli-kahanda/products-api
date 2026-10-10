@@ -18,6 +18,6 @@ public class Product {
     public Long getId() {return id;}
     public double getPrice() {return price;}
 
-    //TUT2 Activity:3 Commented the getter out, ran  GET /products/{id} with id 1 
+    //TUT2 Activity:3 Commented the getter out, ran  GET /products/{id} with id 1
     public String getName() {return name;}
 }
