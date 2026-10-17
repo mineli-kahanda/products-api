@@ -20,4 +20,9 @@ public class Product {
 
     //TUT2 Activity:3 Commented the getter out, ran  GET /products/{id} with id 1
     public String getName() {return name;}
+
+    //TUT3 Activity:1 Task:1 - Add Missing setters to product class
+    public void setId(Long id) {this.id = id;}
+    public void setName(String name) {this.name = name;}
+    public void setPrice(double price) {this.price = price;}
 }
