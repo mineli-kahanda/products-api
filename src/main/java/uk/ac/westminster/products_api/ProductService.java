@@ -15,7 +15,7 @@ public class ProductService {
 
     //TUT4 Activity:3 Task:10 - add digital product and physical product
     public ProductService(){
-        products.add(new PhysicalProduct((
+        products.add(new DigitalProduct(
                 nextId++, "Clean Code (E-book)", 29.99,
                 "/downloads/clean-code.pdf", 4.2));
         products.add(new PhysicalProduct(nextId++, "27-inch Monitor", 249.99,
